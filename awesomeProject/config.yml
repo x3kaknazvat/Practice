@@ -1,0 +1,13 @@
+# Порт, на котором слушаем запросы
+port: 8080
+
+# Токен авторизации прокси
+auth_token: "Bearer 0l62<EJi/zJx]a?"
+
+# Внешние URL‑адреса моделей
+api_urls:
+  hba1c: "https://apiml.labhub.online/api/v1/predict/hba1c"
+  ldl:   "https://apiml.labhub.online/api/v1/predict/ldl"
+  tg:    "https://apiml.labhub.online/api/v1/predict/tg"
+  hdl:   "https://apiml.labhub.online/api/v1/predict/hdl"
+  ferr:  "https://apiml.labhub.online/api/v1/predict/ferr"
